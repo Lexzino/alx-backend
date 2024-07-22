@@ -36,7 +36,7 @@ class Server:
         """
         dataset = self.indexed_dataset()
         assert 0 <= index < len(dataset)
-        
+
         data = []
         current_index = index
         for _ in range(page_size):
