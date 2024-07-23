@@ -2,6 +2,7 @@
 """
 Container with methods to create a pagination sample.
 """
+
 import csv
 import math
 from typing import Dict, List, Tuple
